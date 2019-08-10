@@ -1,5 +1,5 @@
 #嵌套函数
-def factorial1(n):
+def factorialOne(n):
     def recurse(n,product):
         if n==1:
             return product
@@ -17,4 +17,4 @@ def factorial(n,product):
 
 print(factorial(10,1))
 print('-----------')
-print(factorial1(10))
+print(factorialOne(10))
