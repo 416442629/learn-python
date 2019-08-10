@@ -15,6 +15,6 @@ def factorial(n,product):
 
 
 
-print(factorial(10,2))
+print(factorial(10,1))
 print('-----------')
 print(factorial1(10))
